@@ -1,4 +1,4 @@
-package loiane.exercise;
+package loiane.exercise.scanner;
 
 import java.util.Scanner;
 

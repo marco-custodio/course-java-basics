@@ -6,13 +6,13 @@ public class ExerciseOne {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Avalie nossa loja com uma nota entre 0 e 10");
+        System.out.println("Rate our store with a score between 0 and 10");
 
-        float nota = scan.nextFloat();
+        float score = scan.nextFloat();
 
-        while (nota > 10.00){
-            System.out.println("Nota inválida, digite um valor entre 0 e 10");
-            nota = scan.nextFloat();
+        while (score > 10.00){
+            System.out.println("Invalid rating,please enter a value between 0 and 10");
+            score = scan.nextFloat();
         }
     }
 }

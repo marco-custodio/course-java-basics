@@ -8,10 +8,10 @@ public class ExerciseTwo {
 
         System.out.println("Login");
 
-        System.out.println("Digite seu nome de usuário");
+        System.out.println("Username");
         String user = scan.next();
 
-        System.out.println("Digite sua senha");
+        System.out.println("Password");
         String pass = scan.next();
 
         while (user.equalsIgnoreCase(pass)){

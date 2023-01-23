@@ -26,7 +26,7 @@ public class ExerciseTwo {
             }
         }
         System.out.println(" ");
-        System.out.println("Largest and smallest number on the row 5");
+        System.out.println("Largest and smallest number in the row 5");
         System.out.println("Smaller: " + minAux + " Larger: " + maxAux);
         System.out.println(" ");
 
@@ -41,7 +41,7 @@ public class ExerciseTwo {
                 maxiAux = matrix[l][7];
             }
         }
-        System.out.println("Largest and smallest number on the column 5");
+        System.out.println("Largest and smallest number in the column 5");
         System.out.println("Smaller: " + miniAux + " Larger: " + maxiAux);
     }
 }

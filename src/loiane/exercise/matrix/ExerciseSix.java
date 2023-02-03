@@ -23,7 +23,7 @@ public class ExerciseSix {
                 return "O";
             }
             score1 = 0;
-            score2 = 0-;
+            score2 = 0;
         }
 
         for (int i = 0; i < ticTac.length; i++) {
@@ -35,6 +35,7 @@ public class ExerciseSix {
                         score2++;
                     }
                 }
+
             }
             if (score1 == 3){
                 return "X";
